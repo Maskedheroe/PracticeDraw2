@@ -1,4 +1,6 @@
 ![](images/icon.png)
+完成
+===
 
 HenCoder 绘制 2 练习项目
 ===
