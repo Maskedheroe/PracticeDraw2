@@ -37,16 +37,22 @@ public class Practice11StrokeMiterView extends View {
         super.onDraw(canvas);
 
         canvas.save();
+        /**
+         * 延长线的最大值 ！
+         * */
 
         canvas.translate(100, 100);
+        paint.setStrokeMiter(1f);
         // MITER 值：1
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
+        paint.setStrokeMiter(2f);
         // MITER 值：2
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
+        paint.setStrokeMiter(5f);
         // MITER 值：5
         canvas.drawPath(path, paint);
 
